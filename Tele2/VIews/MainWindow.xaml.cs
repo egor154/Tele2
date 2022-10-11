@@ -30,9 +30,6 @@ namespace Tele2
 
         }
 
-        private void Page1(object sender, RoutedEventArgs e)
-        {
-
-        }
+      
     }
 }

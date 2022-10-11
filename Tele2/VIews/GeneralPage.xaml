@@ -1,0 +1,27 @@
+﻿<Page x:Class="Tele2.VIews.GeneralPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Tele2.VIews"
+      mc:Ignorable="d" 
+      Title="GeneralPage">
+
+    <Grid>
+        <Image Source="/GeneralPageImage.png"/>
+        <Button  HorizontalAlignment="Right" Margin="0,0,150,158"
+                 VerticalAlignment="Bottom" 
+                 Background="White" 
+                 Height="201" 
+                 Width="998" 
+                 Click="Page1" 
+                 FontSize="30" 
+                 BorderBrush="White">
+            <Button.Template>
+                <ControlTemplate>
+                    <Border Background="Transparent"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+    </Grid>
+</Page>

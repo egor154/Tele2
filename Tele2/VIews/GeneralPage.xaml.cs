@@ -13,16 +13,20 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Tele2
+namespace Tele2.VIews
 {
     /// <summary>
-    /// Логика взаимодействия для Page2.xaml
+    /// Логика взаимодействия для GeneralPage.xaml
     /// </summary>
-    public partial class Page2 : Page
+    public partial class GeneralPage : Page
     {
-        public Page2()
+        public GeneralPage()
         {
             InitializeComponent();
+        }
+        private void Page1(object sender, RoutedEventArgs e)
+        {
+            NavigationService?.Navigate(new EnterCodePage());
         }
     }
 }

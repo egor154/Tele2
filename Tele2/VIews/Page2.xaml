@@ -1,0 +1,41 @@
+﻿<Page x:Class="Tele2.Page2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Tele2"
+      mc:Ignorable="d" 
+      Title="Page2"
+      Height="1024" Width="1280"
+      Background="White">
+    <Grid>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center"
+                    Margin="0,326,0,0">
+            <TextBlock Text="Код уже активирован"
+                       FontSize="60"
+                       Foreground="Black"/>
+
+            <Button HorizontalAlignment="Center" 
+                    VerticalAlignment="Top" 
+                    Margin="0,180,0,0"
+                    Height="107" 
+                    Command="BrowseBack"
+                    Width="414">
+                <Button.Template>
+                    <ControlTemplate>
+                        <Border Background="#D01183"
+                                CornerRadius="41.07">
+                            <TextBlock Text="Назад"
+                                       Foreground="White"
+                                       HorizontalAlignment="Center"
+                                       VerticalAlignment="Center"
+                                       FontSize="40">
+                            </TextBlock>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+        </StackPanel>
+  
+    </Grid>
+</Page>
